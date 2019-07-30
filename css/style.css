@@ -1,0 +1,329 @@
+@font-face {
+    font-family: 'MetropolisMedium';
+    src: url('../fonts/MetropolisMedium.eot');
+    src: url('../fonts/MetropolisMedium.eot') format('embedded-opentype'),
+    url('../fonts/MetropolisMedium.woff2') format('woff2'),
+    url('../fonts/MetropolisMedium.woff') format('woff'),
+    url('../fonts/MetropolisMedium.ttf') format('truetype'),
+    url('../fonts/MetropolisMedium.svg#MetropolisMedium') format('svg');
+}
+
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('../fonts/BebasNeueRegular.eot');
+    src: url('../fonts/BebasNeueRegular.eot') format('embedded-opentype'),
+    url('../fonts/BebasNeueRegular.woff2') format('woff2'),
+    url('../fonts/BebasNeueRegular.woff') format('woff'),
+    url('../fonts/BebasNeueRegular.ttf') format('truetype'),
+    url('../fonts/BebasNeueRegular.svg#BebasNeueRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'MetropolisLight';
+    src: url('../fonts/MetropolisLight.eot');
+    src: url('../fonts/MetropolisLight.eot') format('embedded-opentype'),
+    url('../fonts/MetropolisLight.woff2') format('woff2'),
+    url('../fonts/MetropolisLight.woff') format('woff'),
+    url('../fonts/MetropolisLight.ttf') format('truetype'),
+    url('../fonts/MetropolisLight.svg#MetropolisLight') format('svg');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    color: inherit;
+    -webkit-font-smoothing: antialiased;
+    text-decoration: none;
+}
+
+html {
+    height: 100%;
+}
+
+header {
+    padding: 24px 0 12px;
+    background-color: rgba(0, 0, 0, 0.65);
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.container:after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+header .logo, footer .logo {
+    float: left;
+}
+
+header .logo img, footer .logo img {
+    width: 100%;
+}
+
+header .button {
+    min-width: 171px;
+    line-height: 42px;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #fa090a;
+    font-size: 15px;
+    float: right;
+    margin-left: 25px;
+    border-radius: 2px;
+    font-family: 'MetropolisMedium';
+}
+
+header .button.grey {
+    background-color: #464646;
+}
+
+header .button.darkgrey {
+    background-color: #252525;
+}
+
+header .button i {
+    margin-right: 14px;
+}
+
+header form {
+    float: right;
+    width: 210px;
+    line-height: 42px;
+    background-color: #ebebeb;
+    border-radius: 2px;
+}
+
+header form:after {
+    content: "";
+    display: inline-block;
+    clear: both;
+}
+
+header form input {
+    float: left;
+    width: 85%;
+    border: none;
+    font-size: 15px;
+    color: #959595;
+    line-height: 42px;
+    text-transform: uppercase;
+    padding-left: 16px;
+    box-sizing: border-box;
+    background-color: transparent;
+    outline: none;
+    font-family: 'MetropolisLight';
+}
+
+header form button {
+    border: none;
+    background-color: transparent;
+    width: 14%;
+    float: right;
+    padding-right: 12px;
+    box-sizing: border-box;
+    line-height: 42px;
+    outline: none;
+}
+
+header form button i {
+    color: #fa090a;
+    font-size: 17px;
+}
+
+.container.border {
+    border-bottom: 2px solid #464646;
+    padding-bottom: 21px;
+    margin-bottom: 21px;
+}
+
+header nav {
+    float: left;
+}
+
+header nav ul, footer ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 7px;
+    padding-bottom: 10px;
+    border-bottom: solid 4px transparent;
+}
+
+header nav ul li:first-child {
+    margin-left: 0;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding: 0 6px;
+    font-family: 'BebasNeueRegular';
+}
+
+header nav ul li:hover a {
+    border-bottom: solid 4px #fa090a;
+    transition: 0.3s;
+    padding-bottom: 10px;
+}
+
+header .social {
+    float: right;
+}
+
+header .social a, footer .social a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #fa090a;
+    text-align: center;
+    margin: 0 8px;
+}
+
+header .social a:first-child, footer .social a:first-child {
+    margin-left: 0;
+}
+
+header .social a:last-child, footer .social a:last-child {
+    margin-right: 0;
+}
+
+header .social a i, footer .social a i {
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.banner {
+    margin: auto;
+    position: relative;
+    min-height: 339px;
+    background: url("../images/banner.png") no-repeat;
+    background-size: cover;
+
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'BebasNeueRegular';
+    font-weight: 400;
+    border-bottom: 3px solid #e70909;
+    padding-bottom: 33px;
+}
+
+.title {
+    bottom: 0;
+    padding: 66px 0 21px;
+    width: 100%;
+    position: absolute;
+}
+
+.container.content {
+    min-height: 500px;
+}
+
+footer {
+    background-color: #010006;
+    border-top: 1px solid #88888b;
+    padding-bottom: 64px;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    font-size: 19px;
+    font-family: 'MetropolisLight';
+    padding: 75px 0 32px;
+}
+
+footer form {
+    text-align: center;
+    padding-bottom: 39px;
+}
+
+footer form input {
+    border: none;
+    font-size: 17px;
+    color: #959595;
+    line-height: 42px;
+    text-transform: uppercase;
+    padding: 0 26px;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'MetropolisLight';
+    width: 390px;
+    border-radius: 2px;
+    margin-right: 16px;
+}
+
+footer form button {
+    width: 310px;
+    line-height: 51px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'MetropolisMedium';
+    border-radius: 2px;
+    margin-left: 16px;
+}
+
+footer .linksblock {
+    background-color: #252525;
+    border-top: 1px solid #88888b;
+    border-bottom: 1px solid #88888b;
+    padding-top: 50px;
+}
+
+footer .social a {
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    background-color: #fa090a;
+    text-align: center;
+    margin: 0 8px;
+}
+
+footer .social a i {
+    line-height: 42px;
+    font-size: 36px;
+}
+
+footer .logo {
+    max-width: 247px;
+}
+
+footer .logo a:first-of-type {
+    display: inline-block;
+    margin-bottom: 44px;
+}
+
+footer .container ul {
+    float: right;
+    padding: 0 26px;
+    min-width: 152px;
+}
+
+footer .container ul li {
+    padding: 12px 0;
+    color: white;
+    font-size: 13px;
+    font-family: 'MetropolisMedium';
+    text-transform: uppercase;
+}
