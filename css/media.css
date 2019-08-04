@@ -1,0 +1,136 @@
+@media only screen and (max-width: 1024px) {
+
+    .banner{
+        background-position: top center;
+    }
+    header .button span{
+        display: none;
+    }
+
+    header .button{
+        min-width: 42px;
+    }
+
+    header .button i{
+        margin-right: 0;
+    }
+
+    header .container.border{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    header .container nav{
+        text-align: center;
+        float: none;
+    }
+
+    header .social{
+        float: none;
+        text-align: center;
+    }
+
+    footer .logo{
+        padding-left: 25px;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    header .container nav ul li a{
+        font-size: 23px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    header .logo{
+        width: 40%;
+    }
+
+    h1{
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 415px){
+    header .logo{
+        float: none;
+        width: 100%;
+    }
+
+    header .button{
+        display: inline-block;
+        margin-left: 8px;
+    }
+
+    footer form input{
+        margin: auto;
+    }
+
+    footer form button{
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+    footer .logo{
+        float: none;
+        margin: auto;
+    }
+
+    header{
+        position: relative;
+        background-color: black;
+    }
+
+    header .container nav ul li a{
+        font-size: 25px;
+    }
+
+    h1{
+        padding-bottom: 33px;
+    }
+}
+
+@media only screen and (max-width: 376px){
+    header .button span{
+        display: inline;
+    }
+
+    header .button{
+        display: block;
+        float: none;
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    header form{
+        float: none;
+        width: 100%;
+    }
+
+    header nav ul li{
+        display: block;
+    }
+
+    footer form{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    footer form input{
+        width: 100%;
+    }
+
+    footer form button{
+        width: 100%;
+    }
+
+    footer .container ul{
+        float: none;
+    }
+
+    footer .container ul li{
+        text-align: center;
+    }
+}
+
+
